@@ -1,0 +1,1512 @@
+[
+  {
+    "id": "5170145012310081615",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170233102089322756",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170250947678437525",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5168103777563050263",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170144170496491616",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170314324215857265",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170564780938756245",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5168043875654172773",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170690322832818290",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170521118301225164",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5170594532177215681",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": 1738605600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Lol Pop"
+  },
+  {
+    "id": "5167939598143193218",
+    "releasedAt": 1728118800,
+    "releasedAtSource": "manual",
+    "upgradableAt": 1740264900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Sakura Flower"
+  },
+  {
+    "id": "5783075783622787539",
+    "releasedAt": 1728581687,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735759276,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Homemade Cake"
+  },
+  {
+    "id": "5782984811920491178",
+    "releasedAt": 1728581776,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738275900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "B-Day Candle"
+  },
+  {
+    "id": "5782988952268964995",
+    "releasedAt": 1728581786,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738194000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Desk Calendar"
+  },
+  {
+    "id": "5821384757304362229",
+    "releasedAt": 1729714334,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738105806,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Witch Hat"
+  },
+  {
+    "id": "5821205665758053411",
+    "releasedAt": 1729714334,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738357200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Eternal Candle"
+  },
+  {
+    "id": "5821261908354794038",
+    "releasedAt": 1729714350,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762760,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Spy Agaric"
+  },
+  {
+    "id": "5825895989088617224",
+    "releasedAt": 1729800251,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738357200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Hypno Lollipop"
+  },
+  {
+    "id": "5825801628657124140",
+    "releasedAt": 1729800262,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735760769,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Hex Pot"
+  },
+  {
+    "id": "5825480571261813595",
+    "releasedAt": 1729800277,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762684,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Evil Eye"
+  },
+  {
+    "id": "5836780359634649414",
+    "releasedAt": 1730158058,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738275900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Voodoo Doll"
+  },
+  {
+    "id": "5837059369300132790",
+    "releasedAt": 1730158058,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735763018,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Scared Cat"
+  },
+  {
+    "id": "5837063436634161765",
+    "releasedAt": 1730158071,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738357200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Flying Broom"
+  },
+  {
+    "id": "5841391256135008713",
+    "releasedAt": 1730234716,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762778,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Trapped Heart"
+  },
+  {
+    "id": "5839038009193792264",
+    "releasedAt": 1730234737,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762664,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Skull Flower"
+  },
+  {
+    "id": "5841336413697606412",
+    "releasedAt": 1730234742,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738357200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Crystal Ball"
+  },
+  {
+    "id": "5841632504448025405",
+    "releasedAt": 1730318895,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738275900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Mad Pumpkin"
+  },
+  {
+    "id": "5841689550203650524",
+    "releasedAt": 1730318897,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735763071,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Sharp Tongue"
+  },
+  {
+    "id": "5843762284240831056",
+    "releasedAt": 1730318919,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738605600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Ion Gem"
+  },
+  {
+    "id": "5846226946928673709",
+    "releasedAt": 1730412824,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762751,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Magic Potion"
+  },
+  {
+    "id": "5846192273657692751",
+    "releasedAt": 1730412825,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1741294200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Electric Skull"
+  },
+  {
+    "id": "5845776576658015084",
+    "releasedAt": 1730412830,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762777,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Kissed Frog"
+  },
+  {
+    "id": "5859442703032386168",
+    "releasedAt": 1730762197,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747670100,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Gem Signet"
+  },
+  {
+    "id": "5857140566201991735",
+    "releasedAt": 1730762220,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735763046,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Vintage Cigar"
+  },
+  {
+    "id": "5856973938650776169",
+    "releasedAt": 1730762220,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1740264900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Record Player"
+  },
+  {
+    "id": "5882125812596999035",
+    "releasedAt": 1731450332,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735759248,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Eternal Rose"
+  },
+  {
+    "id": "5879737836550226478",
+    "releasedAt": 1731450332,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738605600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Mini Oscar"
+  },
+  {
+    "id": "5882252952218894938",
+    "releasedAt": 1731450333,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735759242,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Berry Box"
+  },
+  {
+    "id": "5915502858152706668",
+    "releasedAt": 1732403668,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735758960,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Jelly Bunny"
+  },
+  {
+    "id": "5913442287462908725",
+    "releasedAt": 1732403668,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735760787,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Spiced Wine"
+  },
+  {
+    "id": "5915733223018594841",
+    "releasedAt": 1732403669,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738194000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Hanging Star"
+  },
+  {
+    "id": "5915550639663874519",
+    "releasedAt": 1732403670,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738194000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Love Candle"
+  },
+  {
+    "id": "5915521180483191380",
+    "releasedAt": 1732403676,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735758983,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Durov's Cap"
+  },
+  {
+    "id": "5913517067138499193",
+    "releasedAt": 1732403677,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735763073,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Perfume Bottle"
+  },
+  {
+    "id": "5933590374185435592",
+    "releasedAt": 1733004027,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738105806,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Jester Hat"
+  },
+  {
+    "id": "5936017773737018241",
+    "releasedAt": 1733004028,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738620600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Star Notepad"
+  },
+  {
+    "id": "5935936766358847989",
+    "releasedAt": 1733004028,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738275900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Bunny Muffin"
+  },
+  {
+    "id": "5936043693864651359",
+    "releasedAt": 1733004028,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738357200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Swiss Watch"
+  },
+  {
+    "id": "5936085638515261992",
+    "releasedAt": 1733004029,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762648,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Signet Ring"
+  },
+  {
+    "id": "5933531623327795414",
+    "releasedAt": 1733004029,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738105815,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Genie Lamp"
+  },
+  {
+    "id": "5933629604416717361",
+    "releasedAt": 1733004029,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738275900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Astral Shard"
+  },
+  {
+    "id": "5933671725160989227",
+    "releasedAt": 1733004029,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762979,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Precious Peach"
+  },
+  {
+    "id": "5936013938331222567",
+    "releasedAt": 1733004030,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735762847,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Plush Pepe"
+  },
+  {
+    "id": "5983484377902875708",
+    "releasedAt": 1734387540,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738605600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Ginger Cookie"
+  },
+  {
+    "id": "5983259145522906006",
+    "releasedAt": 1734387540,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1741294200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Winter Wreath"
+  },
+  {
+    "id": "5983471780763796287",
+    "releasedAt": 1734387541,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1735759096,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Santa Hat"
+  },
+  {
+    "id": "5981132629905245483",
+    "releasedAt": 1734387541,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1741294200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Snow Globe"
+  },
+  {
+    "id": "5980789805615678057",
+    "releasedAt": 1734387541,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738194000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Snow Mittens"
+  },
+  {
+    "id": "5981026247860290310",
+    "releasedAt": 1734387541,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1740264900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Sleigh Bell"
+  },
+  {
+    "id": "6003767644426076664",
+    "releasedAt": 1734987444,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747166700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Xmas Stocking"
+  },
+  {
+    "id": "6003373314888696650",
+    "releasedAt": 1734987444,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1741294200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Candy Cane"
+  },
+  {
+    "id": "6001538689543439169",
+    "releasedAt": 1734987445,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738194000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Cookie Heart"
+  },
+  {
+    "id": "6003643167683903930",
+    "releasedAt": 1734987445,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738105805,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Party Sparkler"
+  },
+  {
+    "id": "6003735372041814769",
+    "releasedAt": 1734987446,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747166700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Holiday Drink"
+  },
+  {
+    "id": "6001473264306619020",
+    "releasedAt": 1734987446,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738194000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Jingle Bells"
+  },
+  {
+    "id": "6023679164349940429",
+    "releasedAt": 1735589166,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747166700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Snake Box"
+  },
+  {
+    "id": "6023917088358269866",
+    "releasedAt": 1735589166,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747166700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Pet Snake"
+  },
+  {
+    "id": "6023752243218481939",
+    "releasedAt": 1735589167,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1741294200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Tama Gadget"
+  },
+  {
+    "id": "6028426950047957932",
+    "releasedAt": 1735738672,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1738105803,
+    "upgradableAtSource": "manual",
+    "upgradable": true,
+    "auction": false,
+    "name": "Lunar Snake"
+  },
+  {
+    "id": "6028283532500009446",
+    "releasedAt": 1735738673,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747166700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Big Year"
+  },
+  {
+    "id": "6028601630662853006",
+    "releasedAt": 1735738680,
+    "releasedAtSource": "manual",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5868659926187901653",
+    "releasedAt": 1739491284,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1739491200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Loot Bag"
+  },
+  {
+    "id": "5868455043362980631",
+    "releasedAt": 1739491288,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1748551500,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Heart Locket"
+  },
+  {
+    "id": "5868595669182186720",
+    "releasedAt": 1739491289,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1751653620,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Valentine Box"
+  },
+  {
+    "id": "5868561433997870501",
+    "releasedAt": 1739491289,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1751653620,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Cupid Charm"
+  },
+  {
+    "id": "5868348541058942091",
+    "releasedAt": 1739491290,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1739491200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Love Potion"
+  },
+  {
+    "id": "5868503709637411929",
+    "releasedAt": 1739491290,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1739491200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Diamond Ring"
+  },
+  {
+    "id": "5870784783948186838",
+    "releasedAt": 1739491300,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747941000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Restless Jar"
+  },
+  {
+    "id": "5870947077877400011",
+    "releasedAt": 1739491300,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1757100000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Sky Stilettos"
+  },
+  {
+    "id": "5868220813026526561",
+    "releasedAt": 1739491301,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1739491200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Toy Bear"
+  },
+  {
+    "id": "5870661333703197240",
+    "releasedAt": 1739537381,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747166700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Bonded Ring"
+  },
+  {
+    "id": "5870720080265871962",
+    "releasedAt": 1739537383,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747941000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Nail Bracelet"
+  },
+  {
+    "id": "5870972044522291836",
+    "releasedAt": 1739537394,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1756682520,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Input Key"
+  },
+  {
+    "id": "5871002671934079382",
+    "releasedAt": 1739537394,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1749419700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Lush Bouquet"
+  },
+  {
+    "id": "5870862540036113469",
+    "releasedAt": 1739537394,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1751653620,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Joyful Bundle"
+  },
+  {
+    "id": "5872744075014177223",
+    "releasedAt": 1739537394,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1791482580,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Lucky Locket"
+  },
+  {
+    "id": "5895518353849582541",
+    "releasedAt": 1740265551,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1756754100,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Mighty Arm"
+  },
+  {
+    "id": "5897581235231785485",
+    "releasedAt": 1740265555,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1747670100,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Light Sword"
+  },
+  {
+    "id": "5895328365971244193",
+    "releasedAt": 1740265556,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1748192700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Heroic Helmet"
+  },
+  {
+    "id": "5897593557492957738",
+    "releasedAt": 1740265557,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1740264900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Top Hat"
+  },
+  {
+    "id": "5895544372761461960",
+    "releasedAt": 1740265559,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1748192700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Bow Tie"
+  },
+  {
+    "id": "5895603153683874485",
+    "releasedAt": 1740265560,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1757100000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Fresh Socks"
+  },
+  {
+    "id": "5913351908466098791",
+    "releasedAt": 1740777774,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1790865960,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Mirage Lamp"
+  },
+  {
+    "id": "5933793770951673155",
+    "releasedAt": 1741383707,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1741383900,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Neko Helmet"
+  },
+  {
+    "id": "5933937398953018107",
+    "releasedAt": 1741383710,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1754912460,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Ionic Dryer"
+  },
+  {
+    "id": "5933770397739647689",
+    "releasedAt": 1741383710,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5933543975653737112",
+    "releasedAt": 1741383711,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1751653620,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Whip Cupcake"
+  },
+  {
+    "id": "5935877878062253519",
+    "releasedAt": 1741383711,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1760118360,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Mousse Cake"
+  },
+  {
+    "id": "5933737850477478635",
+    "releasedAt": 1741383711,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1762121400,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Pretty Posy"
+  },
+  {
+    "id": "5963238670868677492",
+    "releasedAt": 1742157551,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1762121400,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Money Pot"
+  },
+  {
+    "id": "5960747083030856414",
+    "releasedAt": 1742157554,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1757100000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Clover Pin"
+  },
+  {
+    "id": "5998981470310368313",
+    "releasedAt": 1743282829,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1754912460,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Moon Pendant"
+  },
+  {
+    "id": "6003456431095808759",
+    "releasedAt": 1743364191,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1760118360,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Faith Amulet"
+  },
+  {
+    "id": "6005659564635063386",
+    "releasedAt": 1743461867,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1743462000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Jack-in-the-Box"
+  },
+  {
+    "id": "6005564615793050414",
+    "releasedAt": 1743461870,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1760118360,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Instant Ramen"
+  },
+  {
+    "id": "6005797617768858105",
+    "releasedAt": 1743461874,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1756754100,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Artisan Brick"
+  },
+  {
+    "id": "6006064678835323371",
+    "releasedAt": 1743461878,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1760117280,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Happy Brownie"
+  },
+  {
+    "id": "6005880141270483700",
+    "releasedAt": 1743461879,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1754912460,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Jolly Chimp"
+  },
+  {
+    "id": "6042113507581755979",
+    "releasedAt": 1744491272,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1754912460,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Stellar Rocket"
+  },
+  {
+    "id": "5773791997064119815",
+    "releasedAt": 1745086906,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5773725897517433693",
+    "releasedAt": 1745086907,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1760118360,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Spring Basket"
+  },
+  {
+    "id": "5773668482394620318",
+    "releasedAt": 1745086907,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1745145300,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Easter Egg"
+  },
+  {
+    "id": "5807641025165919973",
+    "releasedAt": 1746051156,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5830340739074097859",
+    "releasedAt": 1746736655,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1769328000,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Victory Medal"
+  },
+  {
+    "id": "5830323722413671504",
+    "releasedAt": 1746736655,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5832325860073407546",
+    "releasedAt": 1746736655,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5897607679345427347",
+    "releasedAt": 1748730316,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5898012527257715797",
+    "releasedAt": 1748730317,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1774811640,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Vice Cream"
+  },
+  {
+    "id": "5900177027566142759",
+    "releasedAt": 1748730317,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1760118360,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Ice Cream"
+  },
+  {
+    "id": "5902339509239940491",
+    "releasedAt": 1748803787,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1762121400,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Bling Binky"
+  },
+  {
+    "id": "5999277561060787166",
+    "releasedAt": 1751653828,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1774376280,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Chill Flame"
+  },
+  {
+    "id": "5999298447486747746",
+    "releasedAt": 1751653828,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1783168740,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Liberty Figure"
+  },
+  {
+    "id": "5999116401002939514",
+    "releasedAt": 1751653828,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1770139200,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Rare Bird"
+  },
+  {
+    "id": "6014591077976114307",
+    "releasedAt": 1752090606,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1752090600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Snoop Dogg"
+  },
+  {
+    "id": "6012607142387778152",
+    "releasedAt": 1752090606,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1752090600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Swag Bag"
+  },
+  {
+    "id": "6012435906336654262",
+    "releasedAt": 1752090606,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1752090600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Snoop Cigar"
+  },
+  {
+    "id": "6014675319464657779",
+    "releasedAt": 1752090606,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1752090600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Low Rider"
+  },
+  {
+    "id": "6014697240977737490",
+    "releasedAt": 1752090606,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1752090600,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Westside Sign"
+  },
+  {
+    "id": "5832644211639321671",
+    "releasedAt": 1755205296,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1773857040,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Pool Float"
+  },
+  {
+    "id": "5832497899283415733",
+    "releasedAt": 1755205296,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1782146700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Surge Board"
+  },
+  {
+    "id": "5834651202612102354",
+    "releasedAt": 1755205296,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1785090720,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Durov's Glasses"
+  },
+  {
+    "id": "5832279504491381684",
+    "releasedAt": 1755205296,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1791658740,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Resistance Dog"
+  },
+  {
+    "id": "5834918435477259676",
+    "releasedAt": 1755205296,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5832371318007268701",
+    "releasedAt": 1755205296,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5882129648002794519",
+    "releasedAt": 1756681586,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1785953700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Fine Pen"
+  },
+  {
+    "id": "5884080014126745057",
+    "releasedAt": 1756681586,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5886756255493523118",
+    "releasedAt": 1756746266,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1773775080,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Mood Pack"
+  },
+  {
+    "id": "5886387158889005864",
+    "releasedAt": 1756746281,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1774294800,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Timeless Book"
+  },
+  {
+    "id": "6003477390536213997",
+    "releasedAt": 1760107689,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "6001425315291727333",
+    "releasedAt": 1760107705,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "6001229799790478558",
+    "releasedAt": 1760107709,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5775955135867913556",
+    "releasedAt": 1761943013,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5776227780391864916",
+    "releasedAt": 1761943018,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5775966332847654507",
+    "releasedAt": 1761944071,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": false,
+    "name": null
+  },
+  {
+    "id": "5818708013426410448",
+    "releasedAt": 1763229540,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": true,
+    "name": null
+  },
+  {
+    "id": "5839094187366024301",
+    "releasedAt": 1763834400,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1763834400,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": true,
+    "name": "Khabib's Papakha"
+  },
+  {
+    "id": "5882260270843168924",
+    "releasedAt": 1765131366,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1765131366,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": true,
+    "name": "UFC Strike"
+  },
+  {
+    "id": "5956308547863052791",
+    "releasedAt": 1767205299,
+    "releasedAtSource": "telegram",
+    "upgradableAt": null,
+    "upgradableAtSource": null,
+    "upgradable": false,
+    "auction": true,
+    "name": null
+  },
+  {
+    "id": "6046499901846586791",
+    "releasedAt": 1786547700,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1786547700,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Intelligence Cup"
+  },
+  {
+    "id": "6050827940390765935",
+    "releasedAt": 1786714260,
+    "releasedAtSource": "telegram",
+    "upgradableAt": 1786714260,
+    "upgradableAtSource": "telegram",
+    "upgradable": true,
+    "auction": false,
+    "name": "Algorithm Cup"
+  }
+]

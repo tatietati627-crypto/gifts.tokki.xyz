@@ -1,0 +1,733 @@
+{
+  "checkedAt": "2026-10-20T13:03:24.934Z",
+  "gifts": [
+    {
+      "id": "5782988952268964995",
+      "name": "Desk Calendar",
+      "craftable": true,
+      "craftedModels": [
+        {
+          "name": "Celestial Map",
+          "rarityTier": "legendary",
+          "customEmojiId": "5206555107935688206"
+        },
+        {
+          "name": "Day of Mars",
+          "rarityTier": "legendary",
+          "customEmojiId": "5206436592608120719"
+        },
+        {
+          "name": "Loki’s Day",
+          "rarityTier": "legendary",
+          "customEmojiId": "5206455782521997867"
+        },
+        {
+          "name": "May the Fourth",
+          "rarityTier": "legendary",
+          "customEmojiId": "5208666496678531072"
+        },
+        {
+          "name": "Óðinsdagr",
+          "rarityTier": "legendary",
+          "customEmojiId": "5208568717453070401"
+        },
+        {
+          "name": "Aphrodite",
+          "rarityTier": "epic",
+          "customEmojiId": "5206244444361234933"
+        },
+        {
+          "name": "Frjádagr",
+          "rarityTier": "epic",
+          "customEmojiId": "5208959628196487300"
+        },
+        {
+          "name": "Glam Day",
+          "rarityTier": "epic",
+          "customEmojiId": "5208974205315485953"
+        },
+        {
+          "name": "Kronos",
+          "rarityTier": "epic",
+          "customEmojiId": "5208760569347217172"
+        },
+        {
+          "name": "Lucky Day",
+          "rarityTier": "epic",
+          "customEmojiId": "5208715016924074189"
+        },
+        {
+          "name": "Mánadagr",
+          "rarityTier": "epic",
+          "customEmojiId": "5208601367794454437"
+        },
+        {
+          "name": "Payday",
+          "rarityTier": "epic",
+          "customEmojiId": "5208556262047910225"
+        },
+        {
+          "name": "Royal Flush",
+          "rarityTier": "epic",
+          "customEmojiId": "5206171223758769570"
+        },
+        {
+          "name": "Selena",
+          "rarityTier": "epic",
+          "customEmojiId": "5208806332223757383"
+        },
+        {
+          "name": "Shinto Shrine",
+          "rarityTier": "epic",
+          "customEmojiId": "5208477281894307967"
+        },
+        {
+          "name": "Sol Invictus",
+          "rarityTier": "epic",
+          "customEmojiId": "5206487603934696683"
+        },
+        {
+          "name": "TON Core",
+          "rarityTier": "epic",
+          "customEmojiId": "5208426687179560514"
+        },
+        {
+          "name": "Treasure Map",
+          "rarityTier": "epic",
+          "customEmojiId": "5206469401863294279"
+        },
+        {
+          "name": "Týsdagr",
+          "rarityTier": "epic",
+          "customEmojiId": "5206531206442684698"
+        },
+        {
+          "name": "Þórsdagr",
+          "rarityTier": "epic",
+          "customEmojiId": "5206285199305906367"
+        },
+        {
+          "name": "Artwork",
+          "rarityTier": "rare",
+          "customEmojiId": "5208605877510116935"
+        },
+        {
+          "name": "Cat Seasons",
+          "rarityTier": "rare",
+          "customEmojiId": "5208908243207753194"
+        },
+        {
+          "name": "Count Dracula",
+          "rarityTier": "rare",
+          "customEmojiId": "5208594805084427178"
+        },
+        {
+          "name": "First Date",
+          "rarityTier": "rare",
+          "customEmojiId": "5208942242168870111"
+        },
+        {
+          "name": "Frog Day",
+          "rarityTier": "rare",
+          "customEmojiId": "5208756764006193080"
+        },
+        {
+          "name": "Ghost Party",
+          "rarityTier": "rare",
+          "customEmojiId": "5208584750565987519"
+        },
+        {
+          "name": "Grimoire",
+          "rarityTier": "rare",
+          "customEmojiId": "5206299166539549817"
+        },
+        {
+          "name": "Hermes",
+          "rarityTier": "rare",
+          "customEmojiId": "5208828283801603072"
+        },
+        {
+          "name": "Outlaw",
+          "rarityTier": "rare",
+          "customEmojiId": "5206384378690704963"
+        },
+        {
+          "name": "Samhain",
+          "rarityTier": "rare",
+          "customEmojiId": "5206603078425414788"
+        },
+        {
+          "name": "Space Era",
+          "rarityTier": "rare",
+          "customEmojiId": "5206409590148732058"
+        },
+        {
+          "name": "Weekly Set",
+          "rarityTier": "rare",
+          "customEmojiId": "5208594023400378490"
+        },
+        {
+          "name": "Zeus",
+          "rarityTier": "rare",
+          "customEmojiId": "5206375720036635530"
+        },
+        {
+          "name": "Anniversary",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208964902416323146"
+        },
+        {
+          "name": "Anno Domini",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208669674954333284"
+        },
+        {
+          "name": "April Fools",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208823653826861783"
+        },
+        {
+          "name": "Crunch Time",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208915823825033400"
+        },
+        {
+          "name": "Cyberpunk",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208481851739509872"
+        },
+        {
+          "name": "Daily Bread",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206376948397281319"
+        },
+        {
+          "name": "God of Wine",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206551470098386675"
+        },
+        {
+          "name": "Helios",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206320237649108238"
+        },
+        {
+          "name": "Holy Month",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208945983085384385"
+        },
+        {
+          "name": "Launch Date",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206662988924228977"
+        },
+        {
+          "name": "Mesozoic",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208535349852146242"
+        },
+        {
+          "name": "New Year",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206673674802862568"
+        },
+        {
+          "name": "Orchestra",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206593028201942059"
+        },
+        {
+          "name": "Sekhmet",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208600233923086856"
+        },
+        {
+          "name": "Shopping List",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208883581505540992"
+        },
+        {
+          "name": "Shuffle",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206498800914437095"
+        },
+        {
+          "name": "Steampunk",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206355842927989159"
+        },
+        {
+          "name": "Time Spin",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206390267090869264"
+        },
+        {
+          "name": "Toy Calendar",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206533100523263006"
+        },
+        {
+          "name": "Vacation",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206449696553343221"
+        },
+        {
+          "name": "Vintage",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206330403836695520"
+        },
+        {
+          "name": "Wedding",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208624710941708935"
+        },
+        {
+          "name": "Women’s Day",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208727382134920654"
+        },
+        {
+          "name": "Yoga Time",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208638051110131594"
+        }
+      ],
+      "sets": {
+        "emoji": "https://t.me/addemoji/gift_emoji_5782988952268964995_crafts0_by_GiftChangesHelper5Bot",
+        "stickers": "https://t.me/addstickers/gift_5782988952268964995_crafts0_by_GiftChangesHelper5Bot"
+      }
+    },
+    {
+      "id": "6001473264306619020",
+      "name": "Jingle Bells",
+      "craftable": true,
+      "craftedModels": [
+        {
+          "name": "Dragon Lantern",
+          "rarityTier": "legendary",
+          "customEmojiId": "5208829688255909865"
+        },
+        {
+          "name": "Golden Dice",
+          "rarityTier": "legendary",
+          "customEmojiId": "5206513085975663959"
+        },
+        {
+          "name": "Hot Cherry",
+          "rarityTier": "legendary",
+          "customEmojiId": "5206461262900267776"
+        },
+        {
+          "name": "Maneki Neko",
+          "rarityTier": "legendary",
+          "customEmojiId": "5208636814159549649"
+        },
+        {
+          "name": "Cash Bags",
+          "rarityTier": "epic",
+          "customEmojiId": "5206210355205804805"
+        },
+        {
+          "name": "Duality",
+          "rarityTier": "epic",
+          "customEmojiId": "5206356843655367908"
+        },
+        {
+          "name": "Hedgehogs",
+          "rarityTier": "epic",
+          "customEmojiId": "5208583505025471863"
+        },
+        {
+          "name": "Krampus",
+          "rarityTier": "epic",
+          "customEmojiId": "5208896109925141210"
+        },
+        {
+          "name": "Little Gifts",
+          "rarityTier": "epic",
+          "customEmojiId": "5206436334910084924"
+        },
+        {
+          "name": "Lucky Bell",
+          "rarityTier": "epic",
+          "customEmojiId": "5206405252231762469"
+        },
+        {
+          "name": "Silver Maces",
+          "rarityTier": "epic",
+          "customEmojiId": "5208577754064263611"
+        },
+        {
+          "name": "Stranding",
+          "rarityTier": "epic",
+          "customEmojiId": "5206429677710774932"
+        },
+        {
+          "name": "White Owl",
+          "rarityTier": "epic",
+          "customEmojiId": "5208693834145370231"
+        },
+        {
+          "name": "Black Gold",
+          "rarityTier": "rare",
+          "customEmojiId": "5208427876885500987"
+        },
+        {
+          "name": "Bullfinch",
+          "rarityTier": "rare",
+          "customEmojiId": "5206533276616919393"
+        },
+        {
+          "name": "Cash Machine",
+          "rarityTier": "rare",
+          "customEmojiId": "5208894980348744334"
+        },
+        {
+          "name": "Circus",
+          "rarityTier": "rare",
+          "customEmojiId": "5206208534139672519"
+        },
+        {
+          "name": "Dolls",
+          "rarityTier": "rare",
+          "customEmojiId": "5208421468794294435"
+        },
+        {
+          "name": "Grinch",
+          "rarityTier": "rare",
+          "customEmojiId": "5206204784633225164"
+        },
+        {
+          "name": "Jungle Bloom",
+          "rarityTier": "rare",
+          "customEmojiId": "5206304539543638167"
+        },
+        {
+          "name": "Love Song",
+          "rarityTier": "rare",
+          "customEmojiId": "5208854135209763911"
+        },
+        {
+          "name": "Mushrooms",
+          "rarityTier": "rare",
+          "customEmojiId": "5208830774882635516"
+        },
+        {
+          "name": "Nutcracker",
+          "rarityTier": "rare",
+          "customEmojiId": "5206301975448162740"
+        },
+        {
+          "name": "Royal Call",
+          "rarityTier": "rare",
+          "customEmojiId": "5208915823825033406"
+        },
+        {
+          "name": "Tinker Bell",
+          "rarityTier": "rare",
+          "customEmojiId": "5208575267278195942"
+        },
+        {
+          "name": "Wind Chimes",
+          "rarityTier": "rare",
+          "customEmojiId": "5206257608435995477"
+        },
+        {
+          "name": "Blue Sapphire",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206699728074479260"
+        },
+        {
+          "name": "Candy Houses",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208798429483928220"
+        },
+        {
+          "name": "Cozy Winter",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208471689846887512"
+        },
+        {
+          "name": "Crystal",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206472807772361474"
+        },
+        {
+          "name": "Fabergé",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208529693380219134"
+        },
+        {
+          "name": "Festive Duo",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208806512612378235"
+        },
+        {
+          "name": "Festive Night",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208607702871215024"
+        },
+        {
+          "name": "Flashlights",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206683488803131312"
+        },
+        {
+          "name": "Ice Queen",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208541659159106507"
+        },
+        {
+          "name": "Noble Pearl",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208706255190790110"
+        },
+        {
+          "name": "Orchestra",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206292247347237336"
+        },
+        {
+          "name": "Peonies",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206391254933344431"
+        },
+        {
+          "name": "Pharaoh",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206483197298250104"
+        },
+        {
+          "name": "Pink Bow",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208879406797329902"
+        },
+        {
+          "name": "Purple Jingle",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206346784841961114"
+        },
+        {
+          "name": "Red Lotus",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206255375053000971"
+        },
+        {
+          "name": "Reindeer",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208413166622512066"
+        },
+        {
+          "name": "Royal Charm",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206279053207703413"
+        },
+        {
+          "name": "Royal Hour",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206195644942815969"
+        },
+        {
+          "name": "Santa Claus",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208727815926617091"
+        },
+        {
+          "name": "Sarcophagus",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208899412754994348"
+        },
+        {
+          "name": "Sleigh Bells",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208694066073607285"
+        },
+        {
+          "name": "Spring Knell",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5208937169812495011"
+        },
+        {
+          "name": "Steampunk",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206204943547011614"
+        },
+        {
+          "name": "Sylvan Echo",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5206502537535991508"
+        }
+      ],
+      "sets": {
+        "emoji": "https://t.me/addemoji/gift_emoji_6001473264306619020_crafts0_by_GiftChangesHelper1Bot",
+        "stickers": "https://t.me/addstickers/gift_6001473264306619020_crafts0_by_GiftChangesHelper1Bot"
+      }
+    },
+    {
+      "id": "5832279504491381684",
+      "name": "Resistance Dog",
+      "craftable": true,
+      "craftedModels": [
+        {
+          "name": "Aura",
+          "rarityTier": "legendary",
+          "customEmojiId": "5357494732756921054"
+        },
+        {
+          "name": "Designer Dog",
+          "rarityTier": "legendary",
+          "customEmojiId": "5354781000620617696"
+        },
+        {
+          "name": "Guard Dog",
+          "rarityTier": "legendary",
+          "customEmojiId": "5357431704111850679"
+        },
+        {
+          "name": "Ice Walker",
+          "rarityTier": "legendary",
+          "customEmojiId": "5357271338622956259"
+        },
+        {
+          "name": "Satoshi",
+          "rarityTier": "legendary",
+          "customEmojiId": "5357298444161559132"
+        },
+        {
+          "name": "Yin Yang",
+          "rarityTier": "legendary",
+          "customEmojiId": "5357037172711008939"
+        },
+        {
+          "name": "Anubis",
+          "rarityTier": "epic",
+          "customEmojiId": "5357389755166272864"
+        },
+        {
+          "name": "Black Diamond",
+          "rarityTier": "epic",
+          "customEmojiId": "5357183442117241202"
+        },
+        {
+          "name": "Chrome",
+          "rarityTier": "epic",
+          "customEmojiId": "5357347338069257984"
+        },
+        {
+          "name": "Electric Purple",
+          "rarityTier": "epic",
+          "customEmojiId": "5357346668054358883"
+        },
+        {
+          "name": "Graffiti",
+          "rarityTier": "epic",
+          "customEmojiId": "5354891703402671554"
+        },
+        {
+          "name": "Grim Reaper",
+          "rarityTier": "epic",
+          "customEmojiId": "5357131026336361649"
+        },
+        {
+          "name": "Short Circuit",
+          "rarityTier": "epic",
+          "customEmojiId": "5355024838798910510"
+        },
+        {
+          "name": "Amethyst",
+          "rarityTier": "rare",
+          "customEmojiId": "5355254911607026004"
+        },
+        {
+          "name": "Angelic",
+          "rarityTier": "rare",
+          "customEmojiId": "5355157179626204297"
+        },
+        {
+          "name": "Crystal",
+          "rarityTier": "rare",
+          "customEmojiId": "5357182587418750967"
+        },
+        {
+          "name": "Emerald",
+          "rarityTier": "rare",
+          "customEmojiId": "5357358827106775229"
+        },
+        {
+          "name": "Inferno",
+          "rarityTier": "rare",
+          "customEmojiId": "5357114774180114395"
+        },
+        {
+          "name": "Justice",
+          "rarityTier": "rare",
+          "customEmojiId": "5357442415760289817"
+        },
+        {
+          "name": "Monument",
+          "rarityTier": "rare",
+          "customEmojiId": "5357561356289616586"
+        },
+        {
+          "name": "Outline",
+          "rarityTier": "rare",
+          "customEmojiId": "5354800826189657720"
+        },
+        {
+          "name": "Pink Cloud",
+          "rarityTier": "rare",
+          "customEmojiId": "5355187600879564557"
+        },
+        {
+          "name": "Rebel",
+          "rarityTier": "rare",
+          "customEmojiId": "5355132861521374209"
+        },
+        {
+          "name": "Ruby",
+          "rarityTier": "rare",
+          "customEmojiId": "5357170548625419114"
+        },
+        {
+          "name": "Shadow Step",
+          "rarityTier": "rare",
+          "customEmojiId": "5355118967302169061"
+        },
+        {
+          "name": "The King",
+          "rarityTier": "rare",
+          "customEmojiId": "5357269040815450937"
+        },
+        {
+          "name": "Titanium",
+          "rarityTier": "rare",
+          "customEmojiId": "5355258051228119999"
+        },
+        {
+          "name": "Velour",
+          "rarityTier": "rare",
+          "customEmojiId": "5354797111042944660"
+        },
+        {
+          "name": "Violent Pink",
+          "rarityTier": "rare",
+          "customEmojiId": "5357525038046163381"
+        },
+        {
+          "name": "Volcano",
+          "rarityTier": "rare",
+          "customEmojiId": "5355057759723235665"
+        },
+        {
+          "name": "Resisted",
+          "rarityTier": "uncommon",
+          "customEmojiId": "5357334822534556505"
+        }
+      ],
+      "sets": {
+        "emoji": "https://t.me/addemoji/Redo_edwd248UiwssidCraftsEmojiByGiftChanges",
+        "stickers": "https://t.me/addstickers/Redo_edwd248UiwssidCraftsByGiftChanges"
+      }
+    }
+  ]
+}
