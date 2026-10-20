@@ -1,0 +1,28 @@
+name: Download All Gifts
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Downloader
+        run: node downloader.js
+
+      - name: Create Zip Archive
+        run: zip -r telegram_gifts_complete.zip data assets README.md
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: telegram_gifts_complete
+          path: telegram_gifts_complete.zip
