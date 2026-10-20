@@ -1,4 +1,4 @@
-name: Download All Gifts
+name: Download And Commit All Gifts
 
 on:
   workflow_dispatch:
@@ -6,6 +6,8 @@ on:
 jobs:
   run-download:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,11 +20,10 @@ jobs:
       - name: Run Downloader
         run: node downloader.js
 
-      - name: Create Zip Archive
-        run: zip -r telegram_gifts_complete.zip data assets README.md
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: telegram_gifts_complete
-          path: telegram_gifts_complete.zip
+      - name: Commit and Push all files to GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ assets/
+          git commit -m "Auto-download: full dataset (PNG, Lottie, TGS, SVG, Backdrops, Patterns)" || echo "No changes"
+          git push
