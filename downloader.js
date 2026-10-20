@@ -4,7 +4,7 @@ import path from 'node:path';
 const BASE_URL = 'https://api.changes.tg';
 const DATA_DIR = './data';
 const ASSETS_DIR = './assets';
-const CONCURRENCY = 8;
+const CONCURRENCY = 4; // Снижаем нагрузку, чтобы API не банил
 
 console.log('====================================================');
 console.log('Powered by @GiftChanges (api.changes.tg)');
@@ -15,9 +15,10 @@ async function ensureDir(dirPath) {
   await fs.mkdir(dirPath, { recursive: true });
 }
 
+// Запрос JSON с жестким таймаутом 10 секунд
 async function fetchJson(url) {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
     if (!res.ok) return null;
     return await res.json();
   } catch (err) {
@@ -25,21 +26,24 @@ async function fetchJson(url) {
   }
 }
 
+// Скачивание файла с таймаутом 15 секунд
 async function downloadFile(url, destPath) {
   try {
     try {
       await fs.access(destPath);
-      return;
+      return; // Уже скачан ранее
     } catch {}
 
     await ensureDir(path.dirname(destPath));
-    const res = await fetch(url);
+    const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
     if (!res.ok) return;
 
     const buffer = Buffer.from(await res.arrayBuffer());
     await fs.writeFile(destPath, buffer);
     console.log(`[+] Сохранен: ${destPath}`);
-  } catch (err) {}
+  } catch (err) {
+    // Если упал по таймауту — просто идем дальше, не зависаем
+  }
 }
 
 async function runQueue(tasks, limit) {
@@ -64,7 +68,7 @@ async function main() {
   await ensureDir(DATA_DIR);
   await ensureDir(ASSETS_DIR);
 
-  console.log('[1/4] Загрузка глобальных баз (ID, бекдропы, крафты, аукционы)...');
+  console.log('[1/4] Загрузка общих баз...');
   const [idsMap, totalStats, dates, crafts, allBackdrops, allAuctions] = await Promise.all([
     fetchJson(`${BASE_URL}/ids`),
     fetchJson(`${BASE_URL}/total`),
@@ -79,7 +83,6 @@ async function main() {
     return;
   }
 
-  // Сохраняем все глобальные базы с названиями и цветами
   await fs.writeFile(path.join(DATA_DIR, 'gifts_map.json'), JSON.stringify(idsMap, null, 2));
   if (totalStats) await fs.writeFile(path.join(DATA_DIR, 'stats.json'), JSON.stringify(totalStats, null, 2));
   if (dates) await fs.writeFile(path.join(DATA_DIR, 'dates.json'), JSON.stringify(dates, null, 2));
@@ -88,70 +91,55 @@ async function main() {
   if (allAuctions) await fs.writeFile(path.join(DATA_DIR, 'auctions_all.json'), JSON.stringify(allAuctions, null, 2));
 
   const giftEntries = Object.entries(idsMap);
-  console.log(`[2/4] Обработка подарков (${giftEntries.length} шт.). Формируем очередь...`);
+  console.log(`[2/4] Обработка данных подарков (${giftEntries.length} шт.)...`);
 
-  const tasks = [];
+  const fileTasks = [];
   const fullCatalog = [];
 
   for (const [giftId, giftName] of giftEntries) {
     const slug = sanitize(giftName);
 
-    // 1. Оригиналы (PNG 512, Lottie JSON, TGS, SVG)
-    tasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.png?size=512`, path.join(ASSETS_DIR, 'originals/png', `${slug}_${giftId}.png`)));
-    tasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.json`, path.join(ASSETS_DIR, 'originals/lottie', `${slug}_${giftId}.json`)));
-    tasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.tgs`, path.join(ASSETS_DIR, 'originals/tgs', `${slug}_${giftId}.tgs`)));
-    tasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.svg`, path.join(ASSETS_DIR, 'originals/svg', `${slug}_${giftId}.svg`)));
+    // Оригиналы
+    fileTasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.png?size=512`, path.join(ASSETS_DIR, 'originals/png', `${slug}_${giftId}.png`)));
+    fileTasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.json`, path.join(ASSETS_DIR, 'originals/lottie', `${slug}_${giftId}.json`)));
+    fileTasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.tgs`, path.join(ASSETS_DIR, 'originals/tgs', `${slug}_${giftId}.tgs`)));
+    fileTasks.push(() => downloadFile(`${BASE_URL}/original/${giftId}.svg`, path.join(ASSETS_DIR, 'originals/svg', `${slug}_${giftId}.svg`)));
 
-    // 2. Метаданные, модели, узоры и бекдропы каждого подарка
-    tasks.push(async () => {
-      const [info, models, patterns, backdrops] = await Promise.all([
-        fetchJson(`${BASE_URL}/gift/${giftId}`),
-        fetchJson(`${BASE_URL}/models/${giftId}`),
-        fetchJson(`${BASE_URL}/patterns/${giftId}`),
-        fetchJson(`${BASE_URL}/backdrops/${giftId}`)
-      ]);
+    // Получаем инфу о моделях и паттернах
+    const [info, models, patterns, backdrops] = await Promise.all([
+      fetchJson(`${BASE_URL}/gift/${giftId}`),
+      fetchJson(`${BASE_URL}/models/${giftId}`),
+      fetchJson(`${BASE_URL}/patterns/${giftId}`),
+      fetchJson(`${BASE_URL}/backdrops/${giftId}`)
+    ]);
 
-      fullCatalog.push({
-        id: giftId,
-        name: giftName,
-        slug,
-        info,
-        models,
-        patterns,
-        backdrops
-      });
+    fullCatalog.push({ id: giftId, name: giftName, slug, info, models, patterns, backdrops });
 
-      // Скачивание моделей (PNG 512 + Lottie JSON + TGS)
-      if (Array.isArray(models)) {
-        for (const model of models) {
-          const modelSlug = sanitize(model);
-          const encoded = encodeURIComponent(model);
-          tasks.push(() => downloadFile(`${BASE_URL}/model/${giftId}/${encoded}.png?size=512`, path.join(ASSETS_DIR, 'models/png', slug, `${modelSlug}.png`)));
-          tasks.push(() => downloadFile(`${BASE_URL}/model/${giftId}/${encoded}.json`, path.join(ASSETS_DIR, 'models/lottie', slug, `${modelSlug}.json`)));
-          tasks.push(() => downloadFile(`${BASE_URL}/model/${giftId}/${encoded}.tgs`, path.join(ASSETS_DIR, 'models/tgs', slug, `${modelSlug}.tgs`)));
-        }
+    if (Array.isArray(models)) {
+      for (const model of models) {
+        const modelSlug = sanitize(model);
+        const encoded = encodeURIComponent(model);
+        fileTasks.push(() => downloadFile(`${BASE_URL}/model/${giftId}/${encoded}.png?size=512`, path.join(ASSETS_DIR, 'models/png', slug, `${modelSlug}.png`)));
+        fileTasks.push(() => downloadFile(`${BASE_URL}/model/${giftId}/${encoded}.json`, path.join(ASSETS_DIR, 'models/lottie', slug, `${modelSlug}.json`)));
       }
+    }
 
-      // Скачивание узоров (PNG + Lottie JSON + TGS)
-      if (Array.isArray(patterns)) {
-        for (const pattern of patterns) {
-          const patternSlug = sanitize(pattern);
-          const encoded = encodeURIComponent(pattern);
-          tasks.push(() => downloadFile(`${BASE_URL}/pattern/${giftId}/${encoded}.png?size=256`, path.join(ASSETS_DIR, 'patterns/png', slug, `${patternSlug}.png`)));
-          tasks.push(() => downloadFile(`${BASE_URL}/pattern/${giftId}/${encoded}.tgs`, path.join(ASSETS_DIR, 'patterns/tgs', slug, `${patternSlug}.tgs`)));
-          tasks.push(() => downloadFile(`${BASE_URL}/symbol/${giftId}/${encoded}.json`, path.join(ASSETS_DIR, 'patterns/lottie', slug, `${patternSlug}.json`)));
-        }
+    if (Array.isArray(patterns)) {
+      for (const pattern of patterns) {
+        const patternSlug = sanitize(pattern);
+        const encoded = encodeURIComponent(pattern);
+        fileTasks.push(() => downloadFile(`${BASE_URL}/pattern/${giftId}/${encoded}.png?size=256`, path.join(ASSETS_DIR, 'patterns/png', slug, `${patternSlug}.png`)));
       }
-    });
+    }
   }
 
-  console.log('[3/4] Скачивание файлов медиа...');
-  await runQueue(tasks, CONCURRENCY);
+  console.log(`[3/4] Всего файлов к скачиванию: ${fileTasks.length}. Запуск пула...`);
+  await runQueue(fileTasks, CONCURRENCY);
 
-  console.log('[4/4] Финализация общего каталога...');
+  console.log('[4/4] Запись итогового каталога...');
   await fs.writeFile(path.join(DATA_DIR, 'full_catalog.json'), JSON.stringify(fullCatalog, null, 2));
 
-  console.log('Выгрузка завершена на 100%!');
+  console.log('Выгрузка успешно завершена!');
 }
 
 main().catch(console.error);
